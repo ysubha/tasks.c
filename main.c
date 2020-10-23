@@ -161,7 +161,7 @@ void main()
       scanf("%d", &a[i]);
       sum+=a[i];
     }
-    printf("\n Sum :%d",sum);
+    printf("\n Sum :%d",sum) ;
    // sum_elements(n, a);
     
     break;
@@ -274,7 +274,7 @@ void main()
     //calling the user defined function findAverage
     double pruduct = findProduct(num1, num2);
     //displaying the average
-    printf("Product of %f and %f is %lf\n", num1, num2, pruduct);
+    printf("Product of %f and %f is %lf\n", num1, num2,pruduct);
     break;
   }
   case 19:
@@ -301,7 +301,8 @@ void main()
     scanf("%d", &n1);
     printf("Enter second number: ");
     scanf("%d", &n2);
-    avg(n1, n2);
+    printf("Avg : %d ",(n1+n2)/2);
+   // avg(n1, n2);
     break;
   }
   case 21:
